@@ -1,5 +1,4 @@
 ru:
-  sign_in: "вход"
   activerecord:
     models:
       user: "Пользователь"
