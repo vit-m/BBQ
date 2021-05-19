@@ -41,3 +41,11 @@ ru:
   subscriptions:
     subscription:
       destroy_confirm: "Вы уверены, что хотите удалить эту подписку?"
+
+  partials:
+    form_errors:
+      errors_count:
+        one: "сохранение не удалось из-за %{count} ошибки"
+        few: "сохранение не удалось из-за %{count} ошибок"
+        many: "охранение не удалось из-за %{count} ошибок"
+        other: "сохранение не удалось из-за %{count} ошибки"
