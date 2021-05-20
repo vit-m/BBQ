@@ -51,6 +51,12 @@ ru:
       updated_but_not_signed_in: "Ваш аккаунт успешно изменен, но так как ваш пароль изменился, нужно войти снова."
       new:
         sign_up: "Регистрация"
+      edit:
+        title: "Смена пароля"
+        update: "Обновить"
+        leave_blank_if_you_don_t_want_to_change_it: "Оставьте поле пустым, если не хотите менять пароль"
+        we_need_your_current_password_to_confirm_your_changes: "Введите текущий пароль для подтвержения изменений"
+        back: "Вернуться"
     shared:
       links:
         login: "Войти"

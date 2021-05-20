@@ -9,6 +9,8 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'devise'
 gem 'webpacker', '~> 5.0'
+gem 'carrierwave'
+gem 'rmagick'
 
 group :development, :test do
   gem 'pry-rails'

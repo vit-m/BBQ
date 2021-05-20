@@ -3,17 +3,31 @@ ru:
     models:
       user: "Пользователь"
       event: "Событие"
+      photo: "Фотография"
+      subscription: "Подписка"
+      comment: "Комментарий"
+      photo: "Фотография"
     attributes:
       user:
         email: "Email"
         name: "Имя"
+        avatar: "Аватарка"
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
+        current_password: "Текущий пароль"
       event:
         title: "Название"
         address: "Место проведения"
         datetime: "Дата и время"
         description: "Описание"
+      photo:
+        photo: "Фотография"
+      comment:
+        user_name: "Ваше имя"
+        body: "Комментарий"
+      subscription:
+        user_name: "Ваше имя"
+        user_email: "Ваш email"
   controllers:
     events:
       created: "Событие было успешно создано"
@@ -33,6 +47,10 @@ ru:
       created: "Вы подписаны на это событие"
       destroyed: "Участник отписан"
       error: "Подписка/отписка не сработала"
+    photos:
+      error: "Что-то пошло не так"
+      created: "Вы добавили фотографию к событию"
+      destroyed: "Вы удалили фото"
 
   app:
     name: "Шашлыки"
