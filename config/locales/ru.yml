@@ -55,12 +55,20 @@ ru:
   app:
     name: "Шашлыки"
     company: "Хороший программист"
+    signin: "Войти"
+    signup: "Зарегистрироваться"
+    profile: "Профиль"
+    logout: "Выйти"
 
   comments:
+    form:
+      submit: "Отправить"
     comment:
       destroy_confirm: "Вы уверены, что хотите удалить этот комментарий?"
 
   subscriptions:
+    form:
+      subscribe: "Подписаться"
     subscription:
       destroy_confirm: "Вы уверены, что хотите удалить эту подписку?"
 
@@ -73,7 +81,18 @@ ru:
         other: "сохранение не удалось из-за %{count} ошибки"
 
   events:
+    form:
+      save: "Сохранить"
+      back: "Вернуться"
+
+  photos:
+    form:
+      upload: "Загрузить"
+
+  users:
+    form:
+      save: "Сохранить"
+    edit:
+      change_password: "Сменить пароль"
     show:
-      are_you_sure: "Вы уверены?"
-      delete: "Удалить"
-      change: "Изменить"
+      edit_profile: "Редактировать профиль"
