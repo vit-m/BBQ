@@ -15,6 +15,7 @@ ru:
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
         current_password: "Текущий пароль"
+        remember_me: "Запомнить меня"
       event:
         title: "Название"
         address: "Место проведения"

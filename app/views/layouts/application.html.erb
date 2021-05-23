@@ -45,10 +45,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-9">
-          <%= flash_messages %>
-          <%= yield %>
+        <p><%= flash_messages %></p>
+        <%= yield %>
         </div>
       </div>
+      <footer class="buffer-both">
+        <p>&copy; <%= t('app.company') %> 2021</p>
+      </footer>
     </div>
   </body>
 </html>
