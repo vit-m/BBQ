@@ -82,9 +82,15 @@ ru:
         other: "сохранение не удалось из-за %{count} ошибки"
 
   events:
+    show:
+        are_you_sure: "Вы уверены?"
+        delete: "Удалить"
+        change: "Изменить"
     form:
       save: "Сохранить"
       back: "Вернуться"
+    index:
+      create_event: "Создать событие"
 
   photos:
     form:
