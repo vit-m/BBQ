@@ -57,6 +57,7 @@ ru:
         leave_blank_if_you_don_t_want_to_change_it: "Оставьте поле пустым, если не хотите менять пароль"
         we_need_your_current_password_to_confirm_your_changes: "Введите текущий пароль для подтвержения изменений"
         back: "Вернуться"
+        cancel: "Удалить профиль"
     shared:
       links:
         login: "Войти"

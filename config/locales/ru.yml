@@ -103,3 +103,6 @@ ru:
       change_password: "Сменить пароль"
     show:
       edit_profile: "Редактировать профиль"
+
+  confirm:
+    phrase: "Вы уверены?"

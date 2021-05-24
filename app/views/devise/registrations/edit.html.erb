@@ -33,4 +33,6 @@
   </div>
 <% end %>
 
+    <p><%= button_to t(".cancel"), registration_path(resource_name), data: { confirm: t("confirm.phrase") }, method: :delete, class: "btn btn-primary btn-danger" %></p>
+
 <%= link_to t('.back'), :back %>
