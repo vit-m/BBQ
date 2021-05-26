@@ -2,7 +2,7 @@ class Comment < ApplicationRecord
   belongs_to :event
   belongs_to :user
 
-  validates :event, :body, presence: true
+  validates :body, presence: true
   validates :user_name, presence: true, unless: Proc.new{ user.present? }
 
   def user_name
