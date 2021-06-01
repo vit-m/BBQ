@@ -2,11 +2,11 @@ class Subscription < ApplicationRecord
   belongs_to :event
   belongs_to :user
 
-  validates :user_name, presence: true, unless: Proc.new{ user.present? }
-  validates :user_email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }, unless: Proc.new{ user.present? }
+  validates :user_name, presence: true, unless: -> { user.present? }
+  validates :user_email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }, unless: -> { user.present? }
 
-  validates :user, uniqueness: { scope: :event_id }, if: Proc.new{ user.present? }
-  validates :user_email, uniqueness: { scope: :event_id }, unless: Proc.new{ user.present? }
+  validates :user, uniqueness: { scope: :event_id }, if: -> { user.present? }
+  validates :user_email, uniqueness: { scope: :event_id }, unless: -> { user.present? }
 
   def user_name
     if user.present?
