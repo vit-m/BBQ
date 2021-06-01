@@ -75,6 +75,7 @@ ru:
 
   partials:
     form_errors:
+      in_your_form: "В вашей форме"
       errors_count:
         one: "сохранение не удалось из-за %{count} ошибки"
         few: "сохранение не удалось из-за %{count} ошибок"
@@ -86,23 +87,37 @@ ru:
         are_you_sure: "Вы уверены?"
         delete: "Удалить"
         change: "Изменить"
+        they_will_go: "Пойдут"
+        i_will_go: "Я пойду"
+        calling_out: "Зовёт"
     form:
       save: "Сохранить"
       back: "Вернуться"
     index:
       create_event: "Создать событие"
+      events: "События"
+    edit:
+      edit_event: "Редактирование события"
+    new:
+      new_event: "Новое событие"
 
   photos:
     form:
       upload: "Загрузить"
+    photo:
+      added: "Добавил"
 
   users:
     form:
+      back: "Вернуться"
       save: "Сохранить"
     edit:
       change_password: "Сменить пароль"
+      edit_profile: "Редактировать профиль"
     show:
       edit_profile: "Редактировать профиль"
+      organized_by: "Организовал"
+      user_has_not_yet_organized_any_events: "Пользователь пока не организовал ни одного события"
 
   confirm:
     phrase: "Вы уверены?"
