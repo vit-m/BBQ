@@ -1,24 +1,7 @@
-# README
+# BBQ-2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
 
-Things you may want to cover:
+Event management app in which you can create events, subscribe to them, comment on them, attach photos, restrict access to them.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Realized in Ruby on Rails 6. Language: Russian.
