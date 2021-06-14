@@ -21,6 +21,11 @@
     <%= form.text_area :description, class: "form-control" %>
   </div>
 
+  <div class="form-group">
+    <%= form.label :pincode %>
+    <%= form.text_field :pincode, class: "form-control" %>
+  </div>
+
   <div class="action">
     <%= form.submit t('.save'), class: "btn btn-primary" %> или <%= link_to t('.back'), :back %>
   </div>

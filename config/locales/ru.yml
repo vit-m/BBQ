@@ -21,6 +21,7 @@ ru:
         address: "Место проведения"
         datetime: "Дата и время"
         description: "Описание"
+        pincode: "Пин-код доступа"
       photo:
         photo: "Фотография"
       comment:
@@ -90,12 +91,13 @@ ru:
 
   events:
     show:
-        are_you_sure: "Вы уверены?"
-        delete: "Удалить"
-        change: "Изменить"
-        they_will_go: "Пойдут"
-        i_will_go: "Я пойду"
-        calling_out: "Зовёт"
+      are_you_sure: "Вы уверены?"
+      delete: "Удалить"
+      change: "Изменить"
+      they_will_go: "Пойдут"
+      i_will_go: "Я пойду"
+      calling_out: "Зовёт"
+      wrong_pincode: "Неверный пин-код!"
     form:
       save: "Сохранить"
       back: "Вернуться"
@@ -106,6 +108,11 @@ ru:
       edit_event: "Редактирование события"
     new:
       new_event: "Новое событие"
+    password_form:
+      pin-only_access: "Доступ только по пин-коду"
+      send: "Отправить"
+      back: "На главную"
+      pincode: "Пин-код"
 
   photos:
     form:
