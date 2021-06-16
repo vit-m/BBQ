@@ -120,6 +120,7 @@ ru:
       upload: "Загрузить"
     photo:
       added: "Добавил"
+      destroy_confirm: "Вы уверены?"
 
   users:
     form:
