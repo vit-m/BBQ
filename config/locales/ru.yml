@@ -98,6 +98,7 @@ ru:
       i_will_go: "Я пойду"
       calling_out: "Зовёт"
       wrong_pincode: "Неверный пин-код!"
+      where: "Где"
     form:
       save: "Сохранить"
       back: "Вернуться"
